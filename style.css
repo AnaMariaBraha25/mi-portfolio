@@ -18,8 +18,8 @@ body {
 
 body::before,
 body::after,
-body::after::before,
-body::before::before {
+body::before::before,
+body::after::before {
   content: '';
   position: absolute;
   pointer-events: none;
@@ -27,22 +27,22 @@ body::before::before {
 
 body::before {
   top: 0; left: 0; right: 0; height: 2cm;
-  background: linear-gradient(to bottom, #9b59b6 0%, transparent 100%);
+  background: linear-gradient(to bottom, #9b59b6 0%, #000 100%);
 }
 
 body::after {
   bottom: 0; left: 0; right: 0; height: 2cm;
-  background: linear-gradient(to top, #9b59b6 0%, transparent 100%);
+  background: linear-gradient(to top, #9b59b6 0%, #000 100%);
 }
 
 body::before::before {
   top: 0; bottom: 0; right: 0; width: 2cm;
-  background: linear-gradient(to left, #9b59b6 0%, transparent 100%);
+  background: linear-gradient(to left, #9b59b6 0%, #000 100%);
 }
 
 body::after::before {
   top: 0; bottom: 0; left: 0; width: 2cm;
-  background: linear-gradient(to right, #9b59b6 0%, transparent 100%);
+  background: linear-gradient(to right, #9b59b6 0%, #000 100%);
 }
 
 .container {
@@ -104,5 +104,6 @@ h1 {
     padding: 20px 0;
   }
 }
+
 
 
