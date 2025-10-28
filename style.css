@@ -34,7 +34,9 @@ body::after {
 
 .border-left, .border-right {
   position: absolute;
-  top: 0; height: 100%; width: 2cm;
+  top: 0;
+  height: 100%;
+  width: 2cm;
   pointer-events: none;
 }
 
@@ -109,7 +111,4 @@ h1 {
     padding: 20px 0;
   }
 }
-
-
-
 
