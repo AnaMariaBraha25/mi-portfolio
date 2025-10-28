@@ -32,24 +32,6 @@ body::after {
   pointer-events: none;
 }
 
-.border-left, .border-right {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 2cm;
-  pointer-events: none;
-}
-
-.border-left {
-  left: 0;
-  background: linear-gradient(to right, #9b59b6, #000);
-}
-
-.border-right {
-  right: 0;
-  background: linear-gradient(to left, #9b59b6, #000);
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -111,4 +93,3 @@ h1 {
     padding: 20px 0;
   }
 }
-
