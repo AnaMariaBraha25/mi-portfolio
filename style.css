@@ -43,7 +43,14 @@ body::after {
 h1 {
   font-size: 3rem;
   color: #9b59b6; 
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.en-proceso {
+  color: #9b59b6;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .proyectos {
@@ -79,13 +86,4 @@ h1 {
     width: 80%;
     padding: 20px 0;
   }
-  
-  .en-proceso {
-  color: #9b59b6;       
-  font-size: 1rem;   
-  margin-top: 10px;     
-  }
-
 }
-
-
